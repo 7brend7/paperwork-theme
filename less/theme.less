@@ -1,0 +1,437 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+body {
+    background: url("/images/bcknd.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main {
+    //border: 1px solid #f6f6f6;
+    background-color: #ffffff;
+    margin-top: 50px;
+    border-radius: 4px;
+
+    .border-r {
+        border-right: 1px solid #f6f6f6;
+        @media (max-width: 991px) {
+            border-right: none;
+        }
+    }
+
+    .header {
+        border-bottom: 1px solid #f6f6f6;
+
+        .sidebar-toggle-hidden {
+            border: none;
+            box-shadow: none;
+            padding: 0 5px;
+            font-size: 0;
+            display: inline-block;
+            margin-left: 10px;
+            position: relative;
+            top: -4px;
+            display: none;
+
+            &:hover, &:active, &:focus {
+                background-color: inherit;
+            }
+            &:focus {
+                outline: none;
+            }
+            &:active {
+                outline: 1px auto #f6f6f6;
+            }
+
+            .icon-slide-right {
+                display: inline-block;
+            }
+        }
+
+        .sidebar-top {
+            padding: 17px 0px;
+            height: 66px;
+            overflow: hidden;
+            @media (max-width: 991px) {
+                border-bottom: 1px solid #f6f6f6;
+            }
+
+            .sidebar-toggle {
+                float: right;
+                border: none;
+                box-shadow: none;
+                padding: 0 5px;
+                font-size: 0;
+
+                @media (max-width: 991px) {
+                    margin-right: 10px;
+                }
+
+                .icon-slide-left {
+                    display: inline-block;
+                }
+
+                &:hover, &:active, &:focus {
+                    background-color: inherit;
+                }
+                &:focus {
+                    outline: none;
+                }
+                &:active {
+                    outline: 1px auto #f6f6f6;
+                }
+            }
+
+            .logo {
+                margin-left: 15px;
+                text-decoration: none;
+                font-size: 20px;
+                color: #000000;
+            }
+        }
+
+        .search {
+            position: relative;
+            font-size: 16px;
+            margin: 24px 0 0 17px;
+            display: inline-block;
+
+            @media (max-width: 991px) {
+                margin: 9px 0 0 17px;
+            }
+            @media (max-width: 767px) {
+                margin: 9px 0 0 10px;
+            }
+
+            input {
+                margin-left: 32px;
+                border: none;
+                width: 100%;
+
+                &:hover, &:active, &:focus {
+                    outline: none;
+                }
+            }
+
+            .icon-search {
+                position: absolute;
+            }
+        }
+
+        .user-menu {
+            float: right;
+            margin: 17px 17px 0 0;
+
+            @media (max-width: 991px) {
+                margin: 4px 0 0 17px;
+            }
+            @media (max-width: 767px) {
+                margin: 3px 10px 0 0;
+            }
+
+            .dropdown-toggle {
+                border: none;
+                box-shadow: none;
+                color: @text-color;
+
+                &:hover, &:active, &:focus {
+                    background-color: inherit;
+                }
+                &:focus {
+                    outline: none;
+                }
+                &:active {
+                    outline: none;
+                }
+
+                .caret {
+                    margin-left: 10px;
+                }
+            }
+
+            .dropdown-menu {
+
+                .fa {
+                    width: 20px;
+                    color: @text-color;
+                }
+
+            }
+        }
+
+        .header-add-note {
+            width: 100%;
+            height: 66px;
+            background-color: #89939a;
+            color: #ffffff;
+            border-radius: 0;
+            border-top-right-radius: 4px;
+
+            &:focus {
+                outline: none;
+            }
+
+            .plus-char {
+                font-size: 36px;
+                font-style: normal;
+                font-family: serif;
+            }
+        }
+
+        .header-add-note-sm {
+            float: right;
+            background-color: #89939a;
+            color: #ffffff;
+            border-radius: 0;
+
+            &:focus {
+                outline: none;
+            }
+
+            .plus-char {
+                font-size: 18px;
+                font-style: normal;
+                font-family: serif;
+            }
+        }
+    }
+
+    .content {
+
+        .sidebar {
+            padding: 20px;
+
+            .sprite {
+                display: inline-block;
+                margin-right: 8px;
+                position: relative;
+                top: 4px;
+            }
+
+            a {
+                //text-decoration: none;
+                color: inherit;
+                display: block;
+            }
+
+            > ul > li {
+                margin-bottom: 20px;
+            }
+
+            li {
+                line-height: 30px;
+
+                &.active {
+                    color: #5fb336;
+                }
+            }
+
+            .sub-items {
+                margin-left: 25px;
+            }
+
+            .num {
+                float: right;
+                font-style: normal;
+            }
+
+            .colorize {
+                border-radius: 50%;
+                width: 8px;
+                height: 8px;
+                display: inline-block;
+                margin-right: 17px;
+            }
+        }
+
+        .sort-by-row {
+            border-bottom: 1px solid #f6f6f6;
+            padding: 15px 0 18px 0;
+
+            @media (max-width: 991px) {
+                border-top: 1px solid #f6f6f6;
+                margin: 0;
+            }
+
+            &.no-sidebar-block {
+                margin-left: 0;
+            }
+
+            .current-notebook {
+                font-size: 18px;
+                margin: 5px 0 0 20px;
+            }
+
+            .sort-by {
+
+                .dropdown-toggle {
+                    color: inherit;
+                    float: right;
+                    border: none;
+                    box-shadow: none;
+
+                    &:hover, &:active, &:focus {
+                        background-color: inherit;
+                    }
+                    &:focus {
+                        outline: none;
+                    }
+                    &:active {
+                        outline: none;
+                    }
+
+                    .caret {
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+
+        .notes-list {
+
+            &.no-sidebar-block {
+                margin-left: 0;
+            }
+
+            .note {
+                border-bottom: 1px solid #f6f6f6;
+                padding: 25px;
+
+                @media (max-width: 991px) {
+                    margin: 0 7.5px;
+                }
+
+                .note-header {
+                    position: relative;
+
+                    label {
+                        display: block;
+                    }
+
+                    .time {
+                        float: right;
+                        font-style: normal;
+                        margin: 0 0 5px 5px;
+                        font-size: 12px;
+                    }
+
+                    .colorize {
+                        border-radius: 50%;
+                        width: 8px;
+                        height: 8px;
+                        display: block;
+                        position: absolute;
+                        top: 5px;
+                        left: -16px;
+                    }
+                }
+
+                .note-content {
+                    margin: 0;
+                    line-height: 1.7;
+                }
+            }
+        }
+
+        .single-note-header {
+            padding: 15px 0 18px 0;
+            border-bottom: 1px solid #f6f6f6;
+            margin-right: 0;
+
+            @media (max-width: 991px) {
+                margin: 0 7.5px;
+            }
+
+            .select-notebook {
+                float: left;
+
+                @media (max-width: 410px) {
+                    float: none;
+                    text-align: center;
+                    margin-bottom: 10px;
+                }
+
+                .dropdown-toggle {
+                    color: inherit;
+
+                    border: none;
+                    box-shadow: none;
+
+                    &:hover, &:active, &:focus {
+                        background-color: inherit;
+                    }
+                    &:focus {
+                        outline: none;
+                    }
+                    &:active {
+                        outline: none;
+                    }
+
+                    .caret {
+                        margin-left: 10px;
+                    }
+                }
+            }
+
+            .notebook-controls {
+                float: right;
+                margin: 0 10px 0 0;
+
+                @media (max-width: 410px) {
+                    float: none;
+                    clear: both;
+                    text-align: center;
+                }
+
+                li {
+                    display: inline-block;
+                    margin-left: 10px;
+
+                    button {
+                        border-radius: 50%;
+                        border: 1px solid #d0d4d7;
+                        color: #d0d4d7;
+                        background-color: #ffffff;
+                        width: 32px;
+                        height: 32px;
+                        font-size: 14px;
+
+                        &:hover {
+                            border-color: @text-color;
+                            color: @text-color;
+                        }
+
+                        &:focus {
+                            outline:0;
+                        }
+                    }
+                }
+
+                .tooltip-arrow {
+                    border-bottom-color: #89939a;
+                }
+
+                .tooltip-inner {
+                    background-color: #89939a;
+                }
+            }
+        }
+
+        .single-note-content {
+            padding: 25px;
+
+            .note-header {
+                margin: 0 0 20px 0;
+            }
+
+            .note-content {
+                line-height: 1.7;
+            }
+        }
+    }
+}
