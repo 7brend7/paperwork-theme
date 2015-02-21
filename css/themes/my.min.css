@@ -1806,7 +1806,7 @@ body {
   min-height: 100%;
 }
 body {
-  background: url("/images/bcknd.jpg") no-repeat center center fixed;
+  background: url("/paperwork-theme/images/bcknd.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 .main {
