@@ -2423,7 +2423,7 @@ body {
   content: '';
   top: -1px;
   left: -15px;
-  background-image: url(/images/sprite.png);
+  background-image: url(/paperwork-theme/images/sprite.png);
   background-position: 0px -31px;
   width: 16px;
   height: 22px;
