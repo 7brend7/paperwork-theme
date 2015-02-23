@@ -10,38 +10,44 @@ Icon classes can be used entirely standalone. They are named after their origina
 ```
 */
 .icon-notebooks {
-  background-image: url(/paperwork-theme/images/sprite.png);
-  background-position: -20px -31px;
+  background-image: url(/images/sprite.png);
+  background-position: -36px -31px;
   width: 17px;
   height: 16px;
 }
 .icon-search {
-  background-image: url(/paperwork-theme/images/sprite.png);
-  background-position: 0px -31px;
+  background-image: url(/images/sprite.png);
+  background-position: -16px -31px;
   width: 20px;
   height: 20px;
 }
 .icon-shortcuts {
-  background-image: url(/paperwork-theme/images/sprite.png);
-  background-position: -37px -31px;
+  background-image: url(/images/sprite.png);
+  background-position: 0px -53px;
   width: 17px;
   height: 16px;
 }
 .icon-slide-left {
-  background-image: url(/paperwork-theme/images/sprite.png);
+  background-image: url(/images/sprite.png);
   background-position: 0px 0px;
   width: 31px;
   height: 31px;
 }
 .icon-slide-right {
-  background-image: url(/paperwork-theme/images/sprite.png);
+  background-image: url(/images/sprite.png);
   background-position: -31px 0px;
   width: 31px;
   height: 31px;
 }
+.icon-tag-left {
+  background-image: url(/images/sprite.png);
+  background-position: 0px -31px;
+  width: 16px;
+  height: 22px;
+}
 .icon-tags {
-  background-image: url(/paperwork-theme/images/sprite.png);
-  background-position: 0px -51px;
+  background-image: url(/images/sprite.png);
+  background-position: -17px -51px;
   width: 17px;
   height: 16px;
 }

@@ -1799,20 +1799,234 @@
 .fa-medium:before {
   content: "\f23a";
 }
+/* Webfont: Lato-Hairline */
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Hairline'), url('../fonts/Lato-Hairline.eot');
+  src: local('Lato Hairline'), url('../fonts/Lato-Hairline.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/Lato-Hairline.woff') format('woff'), /* Modern Browsers */ url('../fonts/Lato-Hairline.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 50;
+  text-rendering: optimizeLegibility;
+  
+  /* IE9 Compat Modes */
+}
+/* Webfont: Lato-HairlineItalic */
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Hairline Italic'), url('../fonts/Lato-HairlineItalic.eot');
+  src: local('Lato Hairline Italic'), url('../fonts/Lato-HairlineItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/Lato-HairlineItalic.woff') format('woff'), /* Modern Browsers */ url('../fonts/Lato-HairlineItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 50;
+  text-rendering: optimizeLegibility;
+  
+  /* IE9 Compat Modes */
+}
+/* Webfont: Lato-Thin */
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Thin'), url('../fonts/Lato-Thin.eot');
+  src: local('Lato Thin'), url('../fonts/Lato-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/Lato-Thin.woff') format('woff'), /* Modern Browsers */ url('../fonts/Lato-Thin.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 100;
+  text-rendering: optimizeLegibility;
+  
+  /* IE9 Compat Modes */
+}
+/* Webfont: Lato-ThinItalic */
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Thin Italic'), url('../fonts/Lato-ThinItalic.eot');
+  src: local('Lato Thin Italic'), url('../fonts/Lato-ThinItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/Lato-ThinItalic.woff') format('woff'), /* Modern Browsers */ url('../fonts/Lato-ThinItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 100;
+  text-rendering: optimizeLegibility;
+  
+  /* IE9 Compat Modes */
+}
+/* Webfont: Lato-Light */
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Light'), url('../fonts/Lato-Light.eot');
+  src: local('Lato Light'), url('../fonts/Lato-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/Lato-Light.woff') format('woff'), /* Modern Browsers */ url('../fonts/Lato-Light.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  
+  /* IE9 Compat Modes */
+}
+/* Webfont: Lato-LightItalic */
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Light Italic'), url('../fonts/Lato-LightItalic.eot');
+  src: local('Lato Light Italic'), url('../fonts/Lato-LightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/Lato-LightItalic.woff') format('woff'), /* Modern Browsers */ url('../fonts/Lato-LightItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  
+  /* IE9 Compat Modes */
+}
+/* Webfont: Lato-Regular */
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Regular'), url('../fonts/Lato-Regular.eot');
+  src: local('Lato Regular'), url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/Lato-Regular.woff') format('woff'), /* Modern Browsers */ url('../fonts/Lato-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  
+  /* IE9 Compat Modes */
+}
+/* Webfont: Lato-Italic */
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Italic'), url('../fonts/Lato-Italic.eot');
+  src: local('Lato Italic'), url('../fonts/Lato-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/Lato-Italic.woff') format('woff'), /* Modern Browsers */ url('../fonts/Lato-Italic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  
+  /* IE9 Compat Modes */
+}
+/* Webfont: Lato-Medium */
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Medium'), url('../fonts/Lato-Medium.eot');
+  src: local('Lato Medium'), url('../fonts/Lato-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/Lato-Medium.woff') format('woff'), /* Modern Browsers */ url('../fonts/Lato-Medium.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 500;
+  text-rendering: optimizeLegibility;
+  
+  /* IE9 Compat Modes */
+}
+/* Webfont: Lato-MediumItalic */
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Medium Italic'), url('../fonts/Lato-MediumItalic.eot');
+  src: local('Lato Medium Italic'), url('../fonts/Lato-MediumItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/Lato-MediumItalic.woff') format('woff'), /* Modern Browsers */ url('../fonts/Lato-MediumItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 500;
+  text-rendering: optimizeLegibility;
+  
+  /* IE9 Compat Modes */
+}
+/* Webfont: Lato-Semibold */
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Semibold'), url('../fonts/Lato-Semibold.eot');
+  src: local('Lato Semibold'), url('../fonts/Lato-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/Lato-Semibold.woff') format('woff'), /* Modern Browsers */ url('../fonts/Lato-Semibold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 600;
+  text-rendering: optimizeLegibility;
+  
+  /* IE9 Compat Modes */
+}
+/* Webfont: Lato-SemiboldItalic */
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Semibold Italic'), url('../fonts/Lato-SemiboldItalic.eot');
+  src: local('Lato Semibold Italic'), url('../fonts/Lato-SemiboldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/Lato-SemiboldItalic.woff') format('woff'), /* Modern Browsers */ url('../fonts/Lato-SemiboldItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 600;
+  text-rendering: optimizeLegibility;
+  
+  /* IE9 Compat Modes */
+}
+/* Webfont: Lato-BoldItalic */
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Bold Italic'), url('../fonts/Lato-BoldItalic.eot');
+  src: local('Lato Bold Italic'), url('../fonts/Lato-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/Lato-BoldItalic.woff') format('woff'), /* Modern Browsers */ url('../fonts/Lato-BoldItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+  
+  /* IE9 Compat Modes */
+}
+/* Webfont: Lato-Bold */
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Bold'), url('../fonts/Lato-Bold.eot');
+  src: local('Lato Bold'), url('../fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/Lato-Bold.woff') format('woff'), /* Modern Browsers */ url('../fonts/Lato-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+  
+  /* IE9 Compat Modes */
+}
+/* Webfont: Lato-Heavy */
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Heavy'), url('../fonts/Lato-Heavy.eot');
+  src: local('Lato Heavy'), url('../fonts/Lato-Heavy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/Lato-Heavy.woff') format('woff'), /* Modern Browsers */ url('../fonts/Lato-Heavy.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 800;
+  text-rendering: optimizeLegibility;
+  
+  /* IE9 Compat Modes */
+}
+/* Webfont: Lato-HeavyItalic */
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Heavy Italic'), url('../fonts/Lato-HeavyItalic.eot');
+  src: local('Lato Heavy Italic'), url('../fonts/Lato-HeavyItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/Lato-HeavyItalic.woff') format('woff'), /* Modern Browsers */ url('../fonts/Lato-HeavyItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 800;
+  text-rendering: optimizeLegibility;
+  
+  /* IE9 Compat Modes */
+}
+/* Webfont: Lato-Black */
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Black'), url('../fonts/Lato-Black.eot');
+  src: local('Lato Black'), url('../fonts/Lato-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/Lato-Black.woff') format('woff'), /* Modern Browsers */ url('../fonts/Lato-Black.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 900;
+  text-rendering: optimizeLegibility;
+  
+  /* IE9 Compat Modes */
+}
+/* Webfont: Lato-BlackItalic */
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Black Italic'), url('../fonts/Lato-BlackItalic.eot');
+  src: local('Lato Black Italic'), url('../fonts/Lato-BlackItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/Lato-BlackItalic.woff') format('woff'), /* Modern Browsers */ url('../fonts/Lato-BlackItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 900;
+  text-rendering: optimizeLegibility;
+  
+  /* IE9 Compat Modes */
+}
 html {
   height: 100%;
 }
 body {
   min-height: 100%;
 }
-body {
-  background: url("/paperwork-theme/images/bcknd.jpg") no-repeat center center fixed;
-  background-size: cover;
+.drop-down-style {
+  border: none;
+  box-shadow: none;
+}
+.drop-down-style:hover,
+.drop-down-style:focus,
+.drop-down-style.focus,
+.drop-down-style:active,
+.drop-down-style.active {
+  background-color: #ffffff;
+}
+.drop-down-style:focus,
+.drop-down-style:active {
+  outline: none;
+}
+.drop-down-style .caret {
+  margin-left: 10px;
+}
+.open > .dropdown-toggle.btn-default {
+  background-color: #ffffff;
 }
 .main {
   background-color: #ffffff;
-  margin-top: 50px;
-  border-radius: 4px;
+  overflow: hidden;
 }
 .main .border-r {
   border-right: 1px solid #f6f6f6;
@@ -1826,8 +2040,6 @@ body {
   border-bottom: 1px solid #f6f6f6;
 }
 .main .header .sidebar-toggle-hidden {
-  border: none;
-  box-shadow: none;
   padding: 0 5px;
   font-size: 0;
   display: inline-block;
@@ -1835,17 +2047,22 @@ body {
   position: relative;
   top: -4px;
   display: none;
+  border: none;
+  box-shadow: none;
 }
 .main .header .sidebar-toggle-hidden:hover,
+.main .header .sidebar-toggle-hidden:focus,
+.main .header .sidebar-toggle-hidden.focus,
 .main .header .sidebar-toggle-hidden:active,
-.main .header .sidebar-toggle-hidden:focus {
-  background-color: inherit;
+.main .header .sidebar-toggle-hidden.active {
+  background-color: #ffffff;
 }
-.main .header .sidebar-toggle-hidden:focus {
+.main .header .sidebar-toggle-hidden:focus,
+.main .header .sidebar-toggle-hidden:active {
   outline: none;
 }
-.main .header .sidebar-toggle-hidden:active {
-  outline: 1px auto #f6f6f6;
+.main .header .sidebar-toggle-hidden .caret {
+  margin-left: 10px;
 }
 .main .header .sidebar-toggle-hidden .icon-slide-right {
   display: inline-block;
@@ -1862,10 +2079,24 @@ body {
 }
 .main .header .sidebar-top .sidebar-toggle {
   float: right;
-  border: none;
-  box-shadow: none;
   padding: 0 5px;
   font-size: 0;
+  border: none;
+  box-shadow: none;
+}
+.main .header .sidebar-top .sidebar-toggle:hover,
+.main .header .sidebar-top .sidebar-toggle:focus,
+.main .header .sidebar-top .sidebar-toggle.focus,
+.main .header .sidebar-top .sidebar-toggle:active,
+.main .header .sidebar-top .sidebar-toggle.active {
+  background-color: #ffffff;
+}
+.main .header .sidebar-top .sidebar-toggle:focus,
+.main .header .sidebar-top .sidebar-toggle:active {
+  outline: none;
+}
+.main .header .sidebar-top .sidebar-toggle .caret {
+  margin-left: 10px;
 }
 @media (max-width: 991px) {
   .main .header .sidebar-top .sidebar-toggle {
@@ -1874,17 +2105,6 @@ body {
 }
 .main .header .sidebar-top .sidebar-toggle .icon-slide-left {
   display: inline-block;
-}
-.main .header .sidebar-top .sidebar-toggle:hover,
-.main .header .sidebar-top .sidebar-toggle:active,
-.main .header .sidebar-top .sidebar-toggle:focus {
-  background-color: inherit;
-}
-.main .header .sidebar-top .sidebar-toggle:focus {
-  outline: none;
-}
-.main .header .sidebar-top .sidebar-toggle:active {
-  outline: 1px auto #f6f6f6;
 }
 .main .header .sidebar-top .logo {
   margin-left: 15px;
@@ -1906,6 +2126,7 @@ body {
 @media (max-width: 767px) {
   .main .header .search {
     margin: 9px 0 0 10px;
+    font-size: 14px;
   }
 }
 .main .header .search input {
@@ -1932,22 +2153,22 @@ body {
 }
 @media (max-width: 767px) {
   .main .header .user-menu {
-    margin: 3px 10px 0 0;
+    margin: 3px -7.5px 0 0;
   }
 }
 .main .header .user-menu .dropdown-toggle {
+  color: #89939a;
   border: none;
   box-shadow: none;
-  color: #89939a;
 }
 .main .header .user-menu .dropdown-toggle:hover,
+.main .header .user-menu .dropdown-toggle:focus,
+.main .header .user-menu .dropdown-toggle.focus,
 .main .header .user-menu .dropdown-toggle:active,
-.main .header .user-menu .dropdown-toggle:focus {
-  background-color: inherit;
+.main .header .user-menu .dropdown-toggle.active {
+  background-color: #ffffff;
 }
-.main .header .user-menu .dropdown-toggle:focus {
-  outline: none;
-}
+.main .header .user-menu .dropdown-toggle:focus,
 .main .header .user-menu .dropdown-toggle:active {
   outline: none;
 }
@@ -1964,7 +2185,11 @@ body {
   background-color: #89939a;
   color: #ffffff;
   border-radius: 0;
-  border-top-right-radius: 4px;
+}
+@media (max-width: 991px) {
+  .main .header .header-add-note {
+    height: 36px;
+  }
 }
 .main .header .header-add-note:focus {
   outline: none;
@@ -1973,6 +2198,11 @@ body {
   font-size: 36px;
   font-style: normal;
   font-family: serif;
+}
+@media (max-width: 991px) {
+  .main .header .header-add-note .plus-char {
+    font-size: 16px;
+  }
 }
 .main .header .header-add-note-sm {
   float: right;
@@ -1987,6 +2217,9 @@ body {
   font-size: 18px;
   font-style: normal;
   font-family: serif;
+}
+.main .content {
+  border-bottom: 1px solid #f6f6f6;
 }
 .main .content .sidebar {
   padding: 20px;
@@ -2017,15 +2250,7 @@ body {
   float: right;
   font-style: normal;
 }
-.main .content .sidebar .colorize {
-  border-radius: 50%;
-  width: 8px;
-  height: 8px;
-  display: inline-block;
-  margin-right: 17px;
-}
 .main .content .sort-by-row {
-  border-bottom: 1px solid #f6f6f6;
   padding: 15px 0 18px 0;
 }
 @media (max-width: 991px) {
@@ -2048,13 +2273,13 @@ body {
   box-shadow: none;
 }
 .main .content .sort-by-row .sort-by .dropdown-toggle:hover,
+.main .content .sort-by-row .sort-by .dropdown-toggle:focus,
+.main .content .sort-by-row .sort-by .dropdown-toggle.focus,
 .main .content .sort-by-row .sort-by .dropdown-toggle:active,
-.main .content .sort-by-row .sort-by .dropdown-toggle:focus {
-  background-color: inherit;
+.main .content .sort-by-row .sort-by .dropdown-toggle.active {
+  background-color: #ffffff;
 }
-.main .content .sort-by-row .sort-by .dropdown-toggle:focus {
-  outline: none;
-}
+.main .content .sort-by-row .sort-by .dropdown-toggle:focus,
 .main .content .sort-by-row .sort-by .dropdown-toggle:active {
   outline: none;
 }
@@ -2065,7 +2290,7 @@ body {
   margin-left: 0;
 }
 .main .content .notes-list .note {
-  border-bottom: 1px solid #f6f6f6;
+  border-top: 1px solid #f6f6f6;
   padding: 25px;
 }
 @media (max-width: 991px) {
@@ -2085,15 +2310,6 @@ body {
   margin: 0 0 5px 5px;
   font-size: 12px;
 }
-.main .content .notes-list .note .note-header .colorize {
-  border-radius: 50%;
-  width: 8px;
-  height: 8px;
-  display: block;
-  position: absolute;
-  top: 5px;
-  left: -16px;
-}
 .main .content .notes-list .note .note-content {
   margin: 0;
   line-height: 1.7;
@@ -2106,6 +2322,7 @@ body {
 @media (max-width: 991px) {
   .main .content .single-note-header {
     margin: 0 7.5px;
+    border-top: 1px solid #f6f6f6;
   }
 }
 .main .content .single-note-header .select-notebook {
@@ -2124,13 +2341,13 @@ body {
   box-shadow: none;
 }
 .main .content .single-note-header .select-notebook .dropdown-toggle:hover,
+.main .content .single-note-header .select-notebook .dropdown-toggle:focus,
+.main .content .single-note-header .select-notebook .dropdown-toggle.focus,
 .main .content .single-note-header .select-notebook .dropdown-toggle:active,
-.main .content .single-note-header .select-notebook .dropdown-toggle:focus {
-  background-color: inherit;
+.main .content .single-note-header .select-notebook .dropdown-toggle.active {
+  background-color: #ffffff;
 }
-.main .content .single-note-header .select-notebook .dropdown-toggle:focus {
-  outline: none;
-}
+.main .content .single-note-header .select-notebook .dropdown-toggle:focus,
 .main .content .single-note-header .select-notebook .dropdown-toggle:active {
   outline: none;
 }
@@ -2182,4 +2399,37 @@ body {
 }
 .main .content .single-note-content .note-content {
   line-height: 1.7;
+}
+.main .content .single-note-content .note-tags {
+  margin: 0 0 20px 20px;
+}
+.main .content .single-note-content .note-tags li {
+  display: inline-block;
+  font-size: 12px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  height: 22px;
+  padding: 2px 5px 1px 5px;
+  margin-right: 30px;
+  position: relative;
+  background-image: url("data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABaAAD/4QMqaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjUtYzAyMSA3OS4xNTQ5MTEsIDIwMTMvMTAvMjktMTE6NDc6MTYgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mjc0MDlFQjdCQkE2MTFFNDlGNkFEMENCRDY5ODRGN0IiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mjc0MDlFQjhCQkE2MTFFNDlGNkFEMENCRDY5ODRGN0IiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyNzQwOUVCNUJCQTYxMUU0OUY2QUQwQ0JENjk4NEY3QiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoyNzQwOUVCNkJCQTYxMUU0OUY2QUQwQ0JENjk4NEY3QiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCEAAEBAQEBAQEBAQECAQEBAgICAQECAgICAgICAgIDAgMDAwMCAwMEBAQEBAMFBQUFBQUHBwcHBwgICAgICAgICAgBAQEBAgICBQMDBQcFBAUHCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICP/AABEIABQAAQMBEQACEQEDEQH/xABpAAEBAAAAAAAAAAAAAAAAAAAHCgEBAAMAAAAAAAAAAAAAAAAABgUICRAAAAILAQAAAAAAAAAAAAAAAAHwUYHSY6MEJJQFFlURAAEBBgcAAAAAAAAAAAAAAAABIWGRUhQVoeECIpIDBP/aAAwDAQACEQMRAD8AoZ6jb+nV5JvC2tD1ypAywunqn1cswM6olkjQkoQrc0CK9jShNbQ81+B//9k=");
+  background-repeat: repeat-x;
+  border: 1px solid #008cd1;
+  border-top-color: #00bce8;
+  cursor: pointer;
+}
+.main .content .single-note-content .note-tags li:before {
+  position: absolute;
+  content: '';
+  top: -1px;
+  left: -15px;
+  background-image: url(/images/sprite.png);
+  background-position: 0px -31px;
+  width: 16px;
+  height: 22px;
+}
+.main .content .single-note-content .note-tags li a {
+  color: #ffffff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
 }
