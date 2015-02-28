@@ -11,6 +11,9 @@
     <link href="css/themes/my.min.css" rel="stylesheet">
     <link href="css/sprite.css" rel="stylesheet">
 
+    <!-- Mobile only -->
+    <link href="css/owl.carousel.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -55,21 +58,31 @@
                         </div>
 
                     </div>
-                    <div class="col-md-1 col-sm-1 col-xs-2">
+                    <div class="col-md-1 col-sm-1 col-xs-2 text-center">
                         <button class="header-add-note btn btn-default"><i class="plus-char">+</i></button>
                     </div>
                 </div>
             </div>
             <div class="content">
                 <div class="row">
-                    <div class="col-md-3 border-r">
+                    <div class="row hidden-md hidden-lg">
+                        <div class="col-xs-14 mobile-show-navigation">
+                            <button class="sidebar-toggle btn btn-default"><i class="icon-slide-right"></i></button>
+                            <button class="sidebar-toggle-hidden btn btn-default"><i class="icon-slide-left"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-md-3 border-r set-height">
                         <div class="sidebar">
                             <ul class="list-unstyled">
                                 <li>
                                     <a href="#"><i class="sprite icon-shortcuts"></i><b>SHORTCUTS</b></a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="sprite icon-notebooks"></i><b>NOTEBOOKS</b></a>
+                                    <a href="#">
+                                        <i class="sprite icon-notebooks"></i>
+                                        <b>NOTEBOOKS</b>
+                                        <i class="manage-item fa fa-pencil"></i>
+                                    </a>
                                     <ul class="list-unstyled sub-items">
                                         <li class="active"><a href="#">All Notes<i class="num">5</i></a></li>
                                         <li><a href="#">First Notebook<i class="num">8</i></a></li>
@@ -77,7 +90,11 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="sprite icon-tags"></i><b>TAGS</b></a>
+                                    <a href="#">
+                                        <i class="sprite icon-tags"></i>
+                                        <b>TAGS</b>
+                                        <i class="manage-item fa fa-pencil"></i>
+                                    </a>
                                     <ul class="list-unstyled sub-items">
                                         <li><a href="#">Web Design</a></li>
                                         <li><a href="#">Wireframes</a></li>
@@ -88,7 +105,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3 border-r">
+                    <div class="col-md-3 border-r set-height">
 
                         <div class="sort-by-row row">
                             <div class="col-xs-8">
@@ -187,7 +204,7 @@
 
 
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8 set-height">
 
                         <div class="single-note-header row">
 
@@ -257,6 +274,11 @@
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/snap.min.js"></script>
+
+    <!-- Mobile only -->
+    <script src="js/owl.carousel.min.js"></script>
+
     <script src="js/my.min.js"></script>
 </body>
 </html>
